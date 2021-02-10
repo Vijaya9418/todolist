@@ -1,7 +1,50 @@
-.items {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.425);
-    padding: 5px;
-    margin: 5px;
-  
-  }
+.card
+{
+  background-color: darkslategray;
+  margin-top: 18%;
+  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px,
+rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+ rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, 
+ rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px,
+  rgb(255, 85, 85) 40px -40px;
+}
+
+
+.items,
+.itemsx {
+  display: inline-block;
+  background-color: rgb(201, 201, 201);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  color: black;
+  width: 50vw;
+  box-shadow: 5px 5px 5px black;
+  max-width: 400px;
+}
+.items:hover {
+  background-color: aliceblue;
+}
+.crossx {
+  font-weight: bold;
+  color: red;
+  float: right;
+  margin-right: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+.itemsx {
+  background-color: greenyellow;
+  text-decoration: line-through;
+}
+.iv {
+  display: block;
+}
+.ivlk {
+  display: block;
+}
+
+h1
+{
+  justify-content: center;
+}

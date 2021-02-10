@@ -13,22 +13,15 @@ export default function App() {
     
        <Route path='/'>
          <Nav/>
+          
         
        </Route>
 
-        <Route exact path='/'>
+        <Route exact path='/home'> <Content/>  </Route>
 
+       <Route exact path='/target'> <Target/> </Route>
 
-         <Content/>
-       </Route>
-
-       <Route exact path='/target'>
-        <Target/>
-      </Route>
-
-      <Route exact path='/goals'>
-         <Goals/>
-      </Route>
+      <Route exact path='/goals'> <Goals/> </Route>
 
  
    </Router>

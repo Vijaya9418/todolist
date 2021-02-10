@@ -1,0 +1,51 @@
+.cardd
+{
+  margin-top: 18%;
+  box-shadow: blue 0px 0px 0px 2px inset, rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -15px 15px, rgba(240, 46, 170, 0.2) -25px 25px, 
+  rgba(240, 46, 170, 0.1) -35px 35px, rgba(240, 46, 170, 0.05) -45px 45px, rgba(240, 46, 170, 0.3) -95px 95px,
+
+  rgba(240, 46, 170, 0.4) 5px -5px, rgba(240, 46, 170, 0.3) 15px -15px, rgba(240, 46, 170, 0.2) 25px -25px, 
+  rgba(240, 46, 170, 0.1) 35px -35px, rgba(240, 46, 170, 0.05) 45px -45px,rgba(240, 83, 182, 0.3) 95px -95px
+
+  ;
+}
+
+
+.itemst,
+.itemsxt {
+  display: inline-block;
+  background-color: rgb(201, 201, 201);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  color: black;
+  width: 50vw;
+  box-shadow: 5px 5px 5px black;
+  max-width: 400px;
+}
+.itemst:hover {
+  background-color: aliceblue;
+}
+.crossxt {
+  font-weight: bold;
+  color: black;
+  float: right;
+  margin-right: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+.itemsxt {
+  background-color: rgba(252, 58, 181, 0.849);
+  text-decoration: line-through;
+}
+.iv {
+  display: block;
+}
+.ivlk {
+  display: block;
+}
+
+h1
+{
+  justify-content: center;
+}

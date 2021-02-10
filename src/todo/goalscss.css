@@ -1,0 +1,49 @@
+
+
+
+.cards
+{
+background-color: rgb(204, 115, 255);
+  margin-top: 18%;
+  border: rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.411) 0px 54px 55px, rgba(0, 0, 0, 0.411) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 3px 30px;
+  border-style: double;
+  
+}
+
+.itemsg,
+.itemsxg {
+  display: inline-block;
+  background-color: rgb(66, 24, 194);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  color: aliceblue;
+  width: 50vw;
+  box-shadow: 5px 5px 5px black;
+  max-width: 400px;
+}
+.itemsg:hover {
+  background-color: rgb(29, 139, 235);
+}
+.crossxx {
+  font-weight: bold;
+  color: rgb(19, 18, 18);
+  float: right;
+  margin-right: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+.itemsxg {
+  color: aliceblue;
+  background-color: rgb(16, 5, 117);
+  text-decoration: line-through;
+}
+.iv {
+  display: block;
+}
+.ivlk {
+  display: block;
+}
+
